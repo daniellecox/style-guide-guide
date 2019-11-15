@@ -21,4 +21,4 @@ github_username:  bradfrost
 markdown: kramdown
 
 include:
-  - _static
+  _static
