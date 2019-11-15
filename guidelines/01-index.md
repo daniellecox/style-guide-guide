@@ -7,6 +7,7 @@ permalink: /guidelines/
 title: Guidelines
 description: This is the guidelines overview description. It will elaborate on the guidelines and principles that need to be followed to build applications.
 
+
 cards:
 - title: Design Principles
   link: /guidelines/principles.html

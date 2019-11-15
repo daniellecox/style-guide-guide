@@ -2,11 +2,11 @@
 
 	<ul class="c-primary-nav__list c-primary-nav__list--flush js-nav-panel" role="tablist" aria-multiselectable="true">
 
-		<li class="c-primary-nav__item">
+	<!-- 	<li class="c-primary-nav__item">
 			<a href="{{ "/getting-started.html" | prepend: site.baseurl}}" class="c-primary-nav__link {% if page.url == '/getting-started.html' %}is-active is-current{% endif %}">
 				<span class="c-primary-nav__text">Getting started</span>
 			</a>
-		</li><!-- end c-nav__list__item -->
+		</li> end c-nav__list__item -->
 
 		<li class="c-primary-nav__item {% if page.url contains '/guidelines' %}is-active{% endif %}">
 			<a class="c-primary-nav__link c-primary-nav__link--has-children js-nav-dropdown-trigger {% if page.url contains '/guidelines' %} is-active is-current{% endif %}" href="{{ "/guidelines/" | prepend: site.baseurl }}">
@@ -210,6 +210,18 @@
 				{% if my_page.url == "/contribute.html" %}
 				<a href="{{ "/contribute.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/contribute.html' %}is-active is-current{% endif %}">
 					<span class="c-primary-nav__text">Contribute</span>
+				</a>
+				{% endif %}
+			{% endfor %}
+
+		</li><!-- end c-nav__list__item -->
+
+		<li class="c-primary-nav__item">
+
+			{% for my_page in site.pages %}
+				{% if my_page.url == "/test.html" %}
+				<a href="{{ "/test.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/test.html' %}is-active is-current{% endif %}">
+					<span class="c-primary-nav__text">test</span>
 				</a>
 				{% endif %}
 			{% endfor %}
