@@ -2,7 +2,7 @@
 layout: page
 title: Design Principles
 group: gui
-permalink: /gui/
+permalink: /gui/principles.html
 
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 group: gui
-permalink: /gui/
+permalink: /gui/iconography.html
 title: Code conventions
 description: Guidelines for the design system's code base.
 ---

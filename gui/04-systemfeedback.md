@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Accessibility
 group: gui
-permalink: /gui/
+permalink: /gui/systemfeedback.html
 description: Describe the design system's approach to accessibility
 
 ---
