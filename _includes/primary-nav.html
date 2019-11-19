@@ -15,11 +15,10 @@
 
 			<ul class="c-primary-nav__sublist js-nav-dropdown {% assign post_index = '0' %}{% for my_page in site.pages %}{% if my_page.group == 'brand' %}{% capture post_index %}{{ post_index | plus: '1' }}{% endcapture %}{% endif %}{% endfor %}{% if page.url contains '/brand' %} is-active{% endif %}">
 
-				{% include primary-nav-item.html label='Blocks and cards' subgroup='blocks-and-cards' %}
-
-        {% include primary-nav-item.html label='Buttons' subgroup='buttons' %}
-
-
+				{% include primary-nav-item.html label='Blocks and cards' subgroup='Logo' %}
+ 				{% include primary-nav-item.html label='Color Pallette' subgroup='Color Pallette' %}
+				{% include primary-nav-item.html label='TM&B' subgroup='TM&B' %}
+				{% include primary-nav-item.html label='Typography' subgroup='Typography' %}
 			</ul>
 		</li>
 
