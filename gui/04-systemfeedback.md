@@ -2,8 +2,8 @@
 layout: page
 type: detail
 title: Accessibility
-group: guidelines
-permalink: /guidelines/accessibility.html
+group: gui
+permalink: /gui/
 description: Describe the design system's approach to accessibility
 
 ---

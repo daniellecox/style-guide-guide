@@ -1,8 +1,8 @@
 ---
 layout: landing
 type: landing
-group: guidelines
-permalink: /guidelines/
+group: gui
+permalink: /gui/
 
 title: Guidelines
 description: This is the guidelines overview description. It will elaborate on the guidelines and principles that need to be followed to build applications.

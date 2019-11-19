@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Design Principles
-group: guidelines
-permalink: /guidelines/principles.html
-description: The design system's guiding values
+group: gui
+permalink: /gui/
 
 
 ---

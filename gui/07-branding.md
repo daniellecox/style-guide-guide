@@ -2,8 +2,8 @@
 layout: page
 type: detail
 title: Data validation
-group: guidelines
-permalink: /guidelines/data-validation.html
+group: gui
+permalink: /gui/
 description: Guidelines around validating data
 
 

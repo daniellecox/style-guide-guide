@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Data entry
-group: guidelines
-permalink: /guidelines/data-entry.html
+group: gui
+permalink: /gui/
 description: High-level form guidelines
 
 ---

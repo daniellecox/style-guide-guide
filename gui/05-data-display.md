@@ -2,8 +2,8 @@
 layout: page
 type: detail
 title: Data display
-group: guidelines
-permalink: /guidelines/data-display.html
+group: gui
+permalink: /gui/
 description: Presenting quick, actionable data
 
 ---
