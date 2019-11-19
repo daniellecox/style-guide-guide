@@ -4,7 +4,7 @@ type: landing
 group: brand
 permalink: /brand/
 
-title: Styles
+title: Branding
 description: The attributes of the brand
 ---
 
