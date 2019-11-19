@@ -2,18 +2,6 @@
 
 	<ul class="c-primary-nav__list c-primary-nav__list--flush js-nav-panel" role="tablist" aria-multiselectable="true">
 
-				<li class="c-primary-nav__item">
-
-			{% for my_page in site.pages %}
-				{% if my_page.url == "/about.html" %}
-				<a href="{{ "/about.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/about.html' %}is-active is-current{% endif %}">
-					<span class="c-primary-nav__text">Get Started</span>
-				</a>
-				{% endif %}
-			{% endfor %}
-
-		</li><!-- end c-nav__list__item -->
-
 	<li class="c-primary-nav__item {% if page.url contains '/brand' %}is-active{% endif %}">
 			<a class="c-primary-nav__link c-primary-nav__link--has-children js-nav-dropdown-trigger {% if page.url contains '/brand' %} is-active  is-current{% endif %}" href="{{ "/brand/" | prepend: site.baseurl }}">
 
