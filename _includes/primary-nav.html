@@ -13,12 +13,26 @@
 
 			</a><!--end c-primary-nav__link-->
 
-			<ul class="c-primary-nav__sublist js-nav-dropdown {% assign post_index = '0' %}{% for my_page in site.pages %}{% if my_page.group == 'brand' %}{% capture post_index %}{{ post_index | plus: '1' }}{% endcapture %}{% endif %}{% endfor %}{% if page.url contains '/brand' %} is-active{% endif %}">
+			<ul class="c-primary-nav__sublist js-nav-dropdown {% if page.url contains '/brand' %} is-active{% endif %}">
+			{% for my_page in site.pages %}
+				{% if my_page.title %}
+					{% if my_page.group == "brand" %}
+					<li class="c-primary-nav__item">
+						<a class="c-primary-nav__link {% if my_page.url == page.url %}is-active is-current{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">
+                        {% if my_page.layout == "landing" %}
 
-				{% include primary-nav-item.html label='Blocks and cards' subgroup='Logo' %}
- 				{% include primary-nav-item.html label='Color Pallette' subgroup='Color Pallette' %}
-				{% include primary-nav-item.html label='TM&B' subgroup='TM&B' %}
-				{% include primary-nav-item.html label='Typography' subgroup='Typography' %}
+                        <span class="c-primary-nav__text">Overview</span>
+
+                        {% else %}
+
+                        {{ my_page.title }}
+
+                        {% endif %}
+						</a>
+					</li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
 			</ul>
 		</li>
 
