@@ -1,7 +1,7 @@
 ---
 layout: page
 type: detail
-title: Imagery
+title: Logo
 group: brand
 permalink: /brand/logo.html
 description: Styles for treating pictures and graphics

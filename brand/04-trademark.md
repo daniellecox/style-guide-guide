@@ -1,9 +1,9 @@
 ---
 layout: page
 type: detail
-title: Iconography
-group: styles
-permalink: /styles/iconography.html
+title: Trademark
+group: brand
+permalink: /brand/trademark.html
 description: How to style or construct icons for the design system
 
 ---
