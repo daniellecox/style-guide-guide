@@ -3,7 +3,7 @@ layout: page
 group: desktop
 permalink: desktop/iconography.html
 
-title: Tile list
+title: GUI Iconography
 description: Tile description
 
 variations:
