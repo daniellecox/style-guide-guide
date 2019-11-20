@@ -1,8 +1,7 @@
 ---
-layout: component-detail
-group: gui
-subgroup: ide
-permalink: gui/ide/text-field.html
+layout: page
+group: ide
+permalink: ide/text-field.html
 
 title: Text field
 description: Text field description

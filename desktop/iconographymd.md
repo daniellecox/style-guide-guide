@@ -1,8 +1,7 @@
 ---
-layout: component-detail
-group: gui
-subgroup: desktop
-permalink: gui/desktop/tile-list.html
+layout: page
+group: desktop
+permalink: desktop/iconography.html
 
 title: Tile list
 description: Tile description

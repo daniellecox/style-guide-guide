@@ -1,8 +1,7 @@
 ---
-layout: component-detail
-group: gui
-subgroup: desktop
-permalink: gui/desktop/card-list.html
+layout: page
+group: desktop
+permalink: desktop/color.html
 
 title: Card list
 description: Card description
