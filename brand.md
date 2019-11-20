@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Guide Contribution
-description: This page explains the or processes by which the design system gets updated
+title: Brand Design Principles
+description: descripion here
 ---
+
 
 ## People
 The OneAPI DX Steering Committee governs the guidelines Describe who's expected to do the work and who approves changes.
