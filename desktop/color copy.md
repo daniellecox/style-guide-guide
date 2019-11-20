@@ -1,15 +1,15 @@
 ---
 layout: page
 group: desktop
-permalink: desktop/iconography.html
+permalink: desktop/color.html
 
-title: Iconography
-description: Tile description
+title: Color
+description: Card description
 
 variations:
-- title: Tile list
-  description: Tile list description
-  styleModifier: c-tile-list
+- title: Default card list
+  description: Card list description
+  styleModifier: c-card-list
   includeClassification: molecules
   includeCategory: 02-blocks
   includeName: card

@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Brand Acceptance
 group: principles
 permalink: /principles/brand_acceptance.html
 url: /principles/brand_acceptance.html
 
 
-title: Brand Acceptance
+title: Brand
 description: This is the guidelines overview description. It will elaborate on the guidelines and principles that need to be followed to build applications.
 
 cards:
