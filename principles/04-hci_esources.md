@@ -1,6 +1,5 @@
 ---
 layout: page
-type: detail
 title: Typography
 group: principles
 permalink: /principles/hci_resources.html

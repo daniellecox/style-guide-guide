@@ -1,5 +1,6 @@
 ---
-layout: component-category
+layout: page
+type: detail
 group: principles
 permalink: /principles/dev_acceptance.html
 url: /principles/dev_acceptance.html
