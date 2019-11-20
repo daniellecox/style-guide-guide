@@ -1,7 +1,7 @@
 ---
 layout: landing
 type: landing
-group: assets
+group: 
 permalink: /assets/
 ---
 
