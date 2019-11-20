@@ -94,18 +94,7 @@
 
 		</li><!-- end c-nav__list__item -->
 
-		
-		<li class="c-primary-nav__item">
 
-			{% for my_page in site.pages %}
-				{% if my_page.url == "/contribute.html" %}
-				<a href="{{ "/contribute.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/contribute.html' %}is-active is-current{% endif %}">
-					<span class="c-primary-nav__text">Contribute</span>
-				</a>
-				{% endif %}
-			{% endfor %}
-
-		</li><!-- end c-nav__list__item -->
 
 
 
