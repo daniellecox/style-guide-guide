@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Brand Design Principles
+title: Brand Guidelines
 description: descripion here
 ---
 
