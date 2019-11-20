@@ -3,7 +3,7 @@ layout: page
 group: desktop
 permalink: desktop/color.html
 
-title: Card list
+title: Color
 description: Card description
 
 variations:
