@@ -1,12 +1,10 @@
 ---
 layout: page
-type: detail
-group: principles
-permalink: /principles/dev_acceptance.html
-url: /principles/dev_acceptance.html
+title: Design Principles
+description: descripion here
+---
 
 
-title: Developer Experience
 description: This is the guidelines overview description. It will elaborate on the guidelines and principles that need to be followed to build applications.
 
 cards:
