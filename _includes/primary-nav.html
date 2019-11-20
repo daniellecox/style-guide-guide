@@ -5,8 +5,8 @@
 		<li class="c-primary-nav__item">
 
 			{% for my_page in site.pages %}
-				{% if my_page.url == "/downloads.html" %}
-				<a href="{{ "/downloads.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/downloads.html' %}is-active is-current{% endif %}">
+				{% if my_page.url == "/design.html" %}
+				<a href="{{ "/design.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/design.html' %}is-active is-current{% endif %}">
 					<span class="c-primary-nav__text">Design Principles</span>
 				</a>
 				{% endif %}
