@@ -15,7 +15,7 @@
 			{% for my_page in site.pages %}
 				{% if my_page.title %}
 					{% if my_page.group == "principles" %}
-					<li class="c-primary-nav__item">
+		<!-- 			<li class="c-primary-nav__item">
 						<a class="c-primary-nav__link {% if my_page.url == page.url %}is-active is-current{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">
                         {% if my_page.layout == "component-category" %}
 
@@ -27,7 +27,7 @@
 
                         {% endif %}
 						</a>
-					</li>
+					</li> -->
 					{% endif %}
 				{% endif %}
 			{% endfor %}
