@@ -1,9 +1,9 @@
 ---
 layout: page
 type: detail
-title: Color
-group: brand
-permalink: /brand/color.html
+title: installer
+group: assets
+permalink: /assets/installer.html
 description: Color styles define how color is used in the design system.
 
 ---

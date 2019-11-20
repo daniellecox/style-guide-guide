@@ -2,8 +2,8 @@
 layout: page
 type: detail
 title: Typography
-group: brand
-permalink: /brand/typography.html
+group: assets
+permalink: /assets/custom.gui.html
 description: Typography style description
 
 ---

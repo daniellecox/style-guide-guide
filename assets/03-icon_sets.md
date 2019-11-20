@@ -1,9 +1,9 @@
 ---
 layout: page
 type: detail
-title: Trademark
-group: brand
-permalink: /brand/trademark.html
+title: icon_sets
+group: assets
+permalink: /assets/icon_sets.html
 description: How to style or construct icons for the design system
 
 ---
