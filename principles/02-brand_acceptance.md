@@ -6,7 +6,7 @@ permalink: /principles/brand_acceptance.html
 url: /principles/brand_acceptance.html
 
 
-title: Developer Acceptance
+title: Brand Acceptance
 description: This is the guidelines overview description. It will elaborate on the guidelines and principles that need to be followed to build applications.
 
 cards:

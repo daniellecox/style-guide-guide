@@ -4,7 +4,7 @@ type: detail
 title: Typography
 group: principles
 permalink: /principles/hci_resources.html
-description: Typography style description
+description: HCI Resources
 
 ---
 
