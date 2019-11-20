@@ -1,8 +1,8 @@
 ---
 layout: component-detail
-group: components
-subgroup: lists-and-collections
-permalink: /components/lists-and-collections/card-list.html
+group: gui
+subgroup: desktop
+permalink: gui/desktop/card-list.html
 
 title: Card list
 description: Card description

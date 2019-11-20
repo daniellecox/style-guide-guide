@@ -48,26 +48,14 @@
 
 			</a>
 
-			<ul class="c-primary-nav__sublist js-nav-dropdownn {% if page.url contains '/gui' %} is-active{% endif %}">
-			{% for my_page in site.pages %}
+		<ul class="c-primary-nav__sublist js-nav-dropdown {% assign post_index = '0' %}{% for my_page in site.pages %}{% if my_page.group == 'gui' %}{% capture post_index %}{{ post_index | plus: '1' }}{% endcapture %}{% endif %}{% endfor %}{% if page.url contains '/gui' %} is-active{% endif %}">
 
-				{% if my_page.group == "gui" %}
-				<li class="c-primary-nav__item">
-					<a class="c-primary-nav__link {% if my_page.url == page.url %}is-active is-current{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">
-                    {% if my_page.title == "gui" %}
+				{% include primary-nav-item.html label='General' subgroup='general' %}
 
-                    <span class="c-primary-nav__text">Overview</span>
+       			{% include primary-nav-item.html label='ide' subgroup='ide' %}
 
-                    {% else %}
+				{% include primary-nav-item.html label='desktop' subgroup='desktop' %}
 
-                    {{ my_page.title }}
-
-                    {% endif %}
-					</a>
-				</li>
-				{% endif %}
-
-			{% endfor %}
 			</ul>
 		</li>
 

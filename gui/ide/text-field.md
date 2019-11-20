@@ -1,16 +1,16 @@
 ---
 layout: component-detail
-group: components
-subgroup: lists-and-collections
-permalink: /components/lists-and-collections/tile-list.html
+group: gui
+subgroup: ide
+permalink: gui/ide/text-field.html
 
-title: Tile list
-description: Tile description
+title: Text field
+description: Text field description
 
 variations:
-- title: Tile list
-  description: Tile list description
-  styleModifier: c-tile-list
+- title: Text field
+  description: Text field description
+  styleModifier: c-text-field
   includeClassification: molecules
   includeCategory: 02-blocks
   includeName: card

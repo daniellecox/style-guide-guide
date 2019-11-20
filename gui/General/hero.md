@@ -1,8 +1,7 @@
----
 layout: component-detail
-group: components
-subgroup: blocks-and-cards
-permalink: /components/blocks-and-cards/hero.html
+group: gui
+subgroup: general
+permalink: gui/general/hero.html
 
 title: Hero
 status: In Progress

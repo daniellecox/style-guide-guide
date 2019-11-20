@@ -1,8 +1,8 @@
 ---
 layout: component-detail
-group: components
-subgroup: blocks-and-cards
-permalink: /components/blocks-and-cards/card.html
+group: gui
+subgroup: general
+permalink: gui/general/card.html
 
 title: Card
 description: This is a card.

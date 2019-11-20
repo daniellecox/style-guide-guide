@@ -1,16 +1,16 @@
 ---
 layout: component-detail
-group: components
-subgroup: form-controls
-permalink: /components/form-controls/text-field.html
+group: gui
+subgroup: desktop
+permalink: /gui/desktop/tile-list.html
 
-title: Text field
-description: Text field description
+title: Tile list
+description: Tile description
 
 variations:
-- title: Text field
-  description: Text field description
-  styleModifier: c-text-field
+- title: Tile list
+  description: Tile list description
+  styleModifier: c-tile-list
   includeClassification: molecules
   includeCategory: 02-blocks
   includeName: card
