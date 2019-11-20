@@ -2,7 +2,7 @@
 layout: component-detail
 group: gui
 subgroup: desktop
-permalink: /gui/desktop/tile-list.html
+permalink: gui/desktop/tile-list.html
 
 title: Tile list
 description: Tile description
