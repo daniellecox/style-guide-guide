@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Typography
 group: principles
-permalink: /principles/custom.gui.html
+permalink: /principles/hci_resources.html
 description: Typography style description
 
 ---
