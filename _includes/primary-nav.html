@@ -59,9 +59,9 @@
 			</ul>
 		</li>
 
-		<li class="c-primary-nav__item {% if page.url contains '/styles' %}is-active{% endif %}">
+		<li class="c-primary-nav__item {% if page.url contains '/assets' %}is-active{% endif %}">
 
-			<a href="{{ "/styles/index.html" | prepend: site.baseurl }}" class="c-primary-nav__link c-primary-nav__link--has-children js-nav-dropdown-trigger {% if page.url contains '/styles' %} is-active  is-current{% endif %}">
+			<a href="{{ "/assets/index.html" | prepend: site.baseurl }}" class="c-primary-nav__link c-primary-nav__link--has-children js-nav-dropdown-trigger {% if page.url contains '/assets' %} is-active  is-current{% endif %}">
 
 				<span class="c-primary-nav__span">Assets and Resources</span>
 
@@ -71,10 +71,10 @@
 
 			</a>
 
-			<ul class="c-primary-nav__sublist js-nav-dropdown {% if page.url contains '/styles' %} is-active{% endif %}">
+			<ul class="c-primary-nav__sublist js-nav-dropdown {% if page.url contains '/assets' %} is-active{% endif %}">
 			{% for my_page in site.pages %}
 				{% if my_page.title %}
-					{% if my_page.group == "styles" %}
+					{% if my_page.group == "assets" %}
 					<li class="c-primary-nav__item">
 						<a class="c-primary-nav__link {% if my_page.url == page.url %}is-active is-current{% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">
                         {% if my_page.layout == "landing" %}

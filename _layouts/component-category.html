@@ -10,7 +10,7 @@ layout: default
 		{% for componentPage in site.pages %}
     		{% if componentPage.group == page.group %}
         		{% if componentPage.subgroup == page.subgroup %}
-            		{% if componentPage.layout != "component-category" and componentPage.layout != "component-category2" and componentPage.status != "Planned" %}
+            		{% if componentPage.layout != "component-category" and componentPage.layout != "component-category" and componentPage.status != "Planned" %}
 
 					<li class="c-card-list__item l-grid__item">
 						<a href="{{ componentPage.permalink | prepend: site.baseurl }}" class="c-card ">
