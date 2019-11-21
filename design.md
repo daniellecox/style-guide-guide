@@ -24,10 +24,12 @@ cards:
 From Corporate
  Intel Design Language for User Interface
  
-####Start With the End User
+####
+Start With the End User
 We earn the right to personalize the experience for our users by having empathy for them, by being clear about what we say, and transparent about what we do. When we do this, we establish a relationship built on trust that grows over time and brings end users more value with each interaction.
 
-####Earn Their Trust
+####
+Earn Their Trust
 We earn the right to personalize the experience for our users by having empathy for them, by being clear about what we say, and transparent about what we do. When we do this, we establish a relationship built on trust that grows over time and brings end users more value with each interaction.
 
 Nudge When Needed
