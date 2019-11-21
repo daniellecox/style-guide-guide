@@ -13,19 +13,9 @@ cards:
   description: Design principles
 ---
 
- 	Guideline	Acceptance Criteria/ Measurable Metrics
-1	Meet me where I am	Discoverable, easy to figure out what/where to download, ease of installation
-2	Contextualize me	Value prop clarity, ease of finding when/why to use a capability, ease of explaining how a capability works toward my goal
-3	Don’t surprise me	Behavior matches expected patterns, Behavior is consistent across versions + HW
-4	Don’t make me hunt	GSG, Developer guide, samples, readmes, release notes, etc. exist, are in expected locations, and have useful information
-5	Make me the hero	Samples are•Easy to use (compile and run)•Easy to comprehend •Easy to integrate and customize
-6	Don’t fight with me	Easy coexistenceClear messaging about what will and will not work together
-7	Show me how to interoperate	Samples exist showing interoperabilitySamples exist showing better together value propsInstaller and validation aligned to interoperability matrix
-From Corporate
- Intel Design Language for User Interface
+**this text is bold**
  
-####
-Start With the End User
+####  Start With the End User
 We earn the right to personalize the experience for our users by having empathy for them, by being clear about what we say, and transparent about what we do. When we do this, we establish a relationship built on trust that grows over time and brings end users more value with each interaction.
 
 ####
