@@ -14,19 +14,19 @@ What about time saved? What about ease of use? What about scalability and reliab
 Old ISS Style Guide for plug-in creation
 
   
-## Focus on The User’s Primary Task
+##### Focus on The User’s Primary Task
 When designing your freature or tool, identify a concise, conceptually coherent set of functionalities that you want to provide, and be careful to avoid over-engineering. Focus the experience on the primary task that the user is attempting to accomplish. A OneAPI plugin or component that tries to do multiple disparate things will end up being complex and potentially confusing.
  
-## Minimize Complexity in your Designs
+#### Minimize Complexity in your Designs
 Include only essential parameter controls and information in your plugin. When adding a new piece of functionality, always take a moment to question whether it is necessary. Hide parameters that are not in use. An example is hiding a disabled control, rather than displaying it as disabled. An exception to this is if the disabled values remain relevant even when disabled.
 
-## Create Clear Hierarchy
+### Create Clear Hierarchy
 A plug-in works best with an organized workflow of controls. Give the most relevant and frequently used controls the most prominence. People tend to “read” an interface from left to right and top to bottom. Items that are encountered first are seen to be dominant over those that come later. Placing dominant controls prior to other controls they affect communicates which parts of your application are most important. - when arranging components on a screen
 
 ## Anticipate Errors
 People make mistakes, anticipating these mistakes will make your plugin more pleasurable and satisfying to use. The first line of defense here is to design the plugin so that mistakes cannot be made, for example using inline validation. Secondly, if it is possible to make a mistake, make it easy to recover. If it's necessary to show an error message, clearly demarcate the error show/tell the user exactly where the problem occurred and what to do about it. - ADD LINK TO ERROR MESSAGE GUIDANCE
 
-## Avoid Interruptions
+# Avoid Interruptions
 Interruptions cause frustration and annoyance, and prevent people from focusing on what they are interested in. Design your plugin so that it stays out of the way when it is not in use, and does not surprise when it is in use. Use notifications with restraint, always avoid spontaneously popping up dialogs without user intent, and avoid disruptive feedback mechanisms like message dialogs
 
 
