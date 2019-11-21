@@ -231,11 +231,11 @@ corresponding to header levels 1-6. For example:
 
     ###### This is an H6
 
-``Optionally`, you may "close" atx-style headers. This is purely
+Optionally, you may "close" atx-style headers. This is purely
 cosmetic -- you can use this if you think it looks better. The
 closing hashes don't even need to match the number of hashes
 used to open the header. (The number of opening hashes
-determines the header level.) :`
+determines the header level.)
 
     # This is an H1 #
 
@@ -793,7 +793,10 @@ to produce:
     <p><code>&amp;#8212;</code> is the decimal-encoded
     equivalent of <code>&amp;mdash;</code>.</p>
 
-
+    this sis my own block of code
+    friggin amazing!  I love markdown
+        whoa
+i'm out 
 
 <h3 id="img">Images</h3>
 
