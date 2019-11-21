@@ -194,7 +194,7 @@ significantly from most other text-to-HTML formatters (including Movable
 Type's "Convert Line Breaks" option) which translate every line break
 character in a paragraph into a `<br />` tag.
 
-When you *do* want to insert a `<br />` break tag using Markdown, you
+'When' you *do* want to insert a `<br />` break tag using Markdown, you
 end a line with two or more spaces, then type return.
 
 Yes, this takes a tad more effort to create a `<br />`, but a simplistic
@@ -231,11 +231,11 @@ corresponding to header levels 1-6. For example:
 
     ###### This is an H6
 
-Optionally, you may "close" atx-style headers. This is purely
+``Optionally`, you may "close" atx-style headers. This is purely
 cosmetic -- you can use this if you think it looks better. The
 closing hashes don't even need to match the number of hashes
 used to open the header. (The number of opening hashes
-determines the header level.) :
+determines the header level.) :`
 
     # This is an H1 #
 
