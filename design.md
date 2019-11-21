@@ -1,10 +1,10 @@
 ---
 layout: page
 title: DX Design Principles
-description: DX Principles to Consider
+description: DX Principles for OneAPI
 ---
 
-With OneAPI toolsets, our goal is to provide developers with a streamlined solution for multiple architectures.  Because of the complex nature of the project, we must adhere to the specific design standards that will most quickly enable developers to achieve *their* goals on behalf of *their* end-users. 
+With OneAPI toolsets, our goal is to provide developers with a streamlined solution for multiple architectures.  Because of the complex nature of toolset interoperability, we must adhere to those specific design standards that will most quickly enable developers to achieve **_their_** goals on behalf of **_their_** end-users. 
 
   
 ## Focus on The User’s Primary Task
