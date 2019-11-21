@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: page
+type: detail
+title: Color
 group: desktop
-permalink: desktop/color.html
+permalink: /desktop/color.html
+description: Color styles define how color is used in the design system.
 ---
 
-<iframe src="https://daniellecox.github.io/style-guide-guide/static.html" height="900" width="100%"></iframe>
+<iframe src="https://daniellecox.github.io/style-guide-guide/static.html" height="900" width="100%" border="0"></iframe>
 
 
 
