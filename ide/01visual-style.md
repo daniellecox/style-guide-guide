@@ -3,7 +3,7 @@ layout: page
 type: detail
 title: Visual Style for IDE plugins
 group: ide
-permalink: visual-style.html
+permalink: /ide/visual-style.html
 description: Visual style guidelines for IDE plugins
 ---
 
