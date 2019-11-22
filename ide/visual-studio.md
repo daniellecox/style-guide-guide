@@ -1,7 +1,7 @@
 ---
 layout: page
 type: detail
-title: Visual Studio Plugins
+title: Visual Studio Specific
 group: ide
 permalink: visual-studio.html
 description: Design guidelines for OneAPI Visual Studio plug-ins

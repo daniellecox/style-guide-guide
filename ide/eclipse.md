@@ -1,9 +1,9 @@
 ---
 layout: page
 type: detail
-title: Eclipse plugins
+title: Eclipse Specific
 group: ide
-permalink: eclipse.html
+permalink: /ide/eclipse.html
 description: Design guidelines for OneAPI Eclipse plugins
 ---
 
