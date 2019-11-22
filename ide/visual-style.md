@@ -1,16 +1,16 @@
 ---
 layout: page
+type: detail
+title: Visual Style for IDE plugins
 group: ide
-permalink: ide/visual-studio.html
-
-title: Visual Studio Plugins for OneAPI
-description: Text field description
+permalink: visual-style.html
+description: Visual style guidelines for IDE plugins
 ---
 
 ## Branding
 Avoid branding and graphical logos in your component. Adding logos or other elements that aren’t part of the functionality takes space from other controls such as sliders, checkboxes, and pop-up menus. Users will use your components alongside others, so keep the interface simple in order to offer users a cleaner window space and better user experience.
 
-The Intel branding guidelines are attached, however, the ISS standard is to let the IDE team drive any Intel branding efforts. 
+	 ***
 
 
 ## Text Style
@@ -26,3 +26,6 @@ Eclipse uses the fonts and colors provided by the operating system as much as po
 Re-use the core visual concepts to maintain consistent representation and meaning across Eclipse plug-ins and functionality. 
 Note: if writing a component that will not be integrated into the IDE, follow the IT Master Look and Feel Stylesheet
  
+This is [an example](http://example.com/ "Title") inline link.
+
+<img src="smiley.gif" alt="Smiley face" height="42" width="42">

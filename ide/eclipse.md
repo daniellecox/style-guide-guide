@@ -1,10 +1,10 @@
 ---
 layout: page
+type: detail
+title: Eclipse plugins
 group: ide
-permalink: ide/eclipse.html
-
-title: Text field
-description: Text field description
+permalink: eclipse.html
+description: Design guidelines for OneAPI Eclipse plugins
 ---
 
 ## Eclipse UI Patterns

@@ -1,10 +1,10 @@
 ---
 layout: page
+type: detail
+title: Visual Studio Plugins
 group: ide
-permalink: ide/visual-studio.html
-
-title: Visual Studio Plugins for OneAPI
-description: Text field description
+permalink: visual-studio.html
+description: Design guidelines for OneAPI Visual Studio plug-ins
 ---
 
 Eclipse UI Patterns
