@@ -1,7 +1,6 @@
 ---
 layout: page
-group: ide
-permalink: ide/text-field.html
+permalink: samples.html
 
 title: Text field
 description: Text field description

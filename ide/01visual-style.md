@@ -1,7 +1,7 @@
 ---
 layout: page
 type: detail
-title: Visual Style for IDE plugins
+title: IDE plugins Guideline
 group: ide
 permalink: /ide/visual-style.html
 description: Visual style guidelines for IDE plugins
