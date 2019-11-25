@@ -8,13 +8,12 @@ description: Visual style guidelines for IDE plugins
 ---
 
 ## Branding
-Avoid branding and graphical logos in your component. Adding logos or other elements that aren’t part of the functionality takes space from other controls such as sliders, checkboxes, and pop-up menus. Users will use your components alongside others, so keep the interface simple in order to offer users a cleaner window space and better user experience.
-
-	 ***
+Avoid branding, logos and graphics in your compoent except where identified.  Users will use your components alongside others as an itegraged experience, so keep the interface simple in order to offer a cleaner window space.  For questions about Intel branding, refer to the general branding guidelines.
 
 
 ## Text Style
-Consistent capitalization of text within a plug-in leads to a more polished feel, and greater perception of quality. Use headline capitalization on: Titles, menus, tooltips, tabs and buttons. For example, "Open Setup Log" can be used as a menu item label. Use sentence style capitalization on: all check boxes, radio buttons and group labels. For example, "Choose an option for the Java file" can be used as a group label. Guideline Use Headline style capitalization for menus, tooltip and all titles, including those used for windows, dialogs, tabs, column headings and push buttons. Capitalize the first and last words, and all nouns, pronouns, adjectives, verbs and adverbs. Do not include ending punctuation. Guideline Use Sentence style capitalization for all control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields. Capitalize the first letter of the first word, and any proper names such as the word Java.
+Consistent capitalization of text within a plug-in leads to a more polished feel, and greater perception of quality. Follow the existing Eclipse convention and 
+Use headline capitalization on: Titles, menus, tooltips, tabs and buttons. For example, "Open Setup Log" can be used as a menu item label. Use sentence style capitalization on: all check boxes, radio buttons and group labels. For example, "Choose an option for the Java file" can be used as a group label. Guideline Use Headline style capitalization for menus, tooltip and all titles, including those used for windows, dialogs, tabs, column headings and push buttons. Capitalize the first and last words, and all nouns, pronouns, adjectives, verbs and adverbs. Do not include ending punctuation. Guideline Use Sentence style capitalization for all control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields. Capitalize the first letter of the first word, and any proper names such as the word Java.
 
 
 ## Fonts and colors in Eclipse
@@ -29,3 +28,8 @@ Note: if writing a component that will not be integrated into the IDE, follow th
 This is [an example](http://example.com/ "Title") inline link.
 
 <img src="smiley.gif" alt="Smiley face" height="42" width="42">
+
+
+
+## Including Help Files
+https://wiki.eclipse.org/Eclipse_Doc_Style_Guide#Topic_Titles
