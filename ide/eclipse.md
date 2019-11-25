@@ -8,8 +8,6 @@ description: Design guidelines for OneAPI Eclipse plugins
 ---
 
 ## Eclipse UI Patterns
-Skip to end of metadata
-Go to start of metadata
 All elements in the Eclipse interface are derived from the plug-in and workbench concepts. Plugins provide functionality and control and are implemented as structured subsystems in the platform.  The workbench is the cockpit for navigating all that is provided by the plug-ins.  
 
 ## Follow Existing UI Conventions
