@@ -7,13 +7,32 @@ permalink: /ide/visual-style.html
 description: Visual style guidelines for IDE plugins
 ---
 
+
+
+##
+
 ## Branding
 Avoid branding, logos and graphics in your compoent except where identified.  Users will use your components alongside others as an itegraged experience, so keep the interface simple in order to offer a cleaner window space.  For questions about Intel branding, refer to the general branding guidelines.
 
 
-## Text Style
-Consistent capitalization of text within a plug-in leads to a more polished feel, and greater perception of quality. Follow the existing Eclipse convention and 
-Use headline capitalization on: Titles, menus, tooltips, tabs and buttons. For example, "Open Setup Log" can be used as a menu item label. Use sentence style capitalization on: all check boxes, radio buttons and group labels. For example, "Choose an option for the Java file" can be used as a group label. Guideline Use Headline style capitalization for menus, tooltip and all titles, including those used for windows, dialogs, tabs, column headings and push buttons. Capitalize the first and last words, and all nouns, pronouns, adjectives, verbs and adverbs. Do not include ending punctuation. Guideline Use Sentence style capitalization for all control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields. Capitalize the first letter of the first word, and any proper names such as the word Java.
+## Text Style - 
+
+For both IDEs use title case (means that the main words are capitalized and the “less important” words are lowercased) 
+
+for all content use: sentence-style capitalization - That means everything is lowercase except the first word and proper nouns,
+
+
+Use headline capitalization on all: Titles, menus, tabs and buttons
+
+
+Use sentence style capitalization on all:
+check boxes, radio buttons and group labels. 
+For example, “Choose an option for the Java file” can be used as a group label.
+Capitalize the first and last words, and all nouns, pronouns, adjectives, verbs and adverbs. Do not include ending punctuation. Guideline Use Sentence style capitalization for all control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields. Capitalize the first letter of the first word, and any proper names such as the word Java.
+
+Follow the existing Eclipse and Visual Studio conventions
+https://wiki.eclipse.org/User_Interface_Guidelines#General_UI_Guidelines
+https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines?view=vs-2019
 
 
 ## Fonts and colors in Eclipse
