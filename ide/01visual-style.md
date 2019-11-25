@@ -15,14 +15,20 @@ description: Visual style guidelines for IDE plugins
 Avoid branding, logos and graphics in your compoent except where identified.  Users will use your components alongside others as an itegraged experience, so keep the interface simple in order to offer a cleaner window space.  For questions about Intel branding, refer to the general branding guidelines.
 
 
-## Text Style - 
+## Text Style
 
-For both IDEs use title case (means that the main words are capitalized and the “less important” words are lowercased) 
+For both IDEs:
+#### Use title case for:
+Titles, menus, tabs and buttons
+
+#### Use sentence case with no ending punctuation for:
+all control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields.
+Check boxes, radio buttons and group labels. 
+
+Do not include ending punctuation. Guideline Use Sentence style capitalization for all control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields. Capitalize the first letter of the first word, and any proper names such as the word Java.
 
 for all content use: sentence-style capitalization - That means everything is lowercase except the first word and proper nouns,
 
-
-Use headline capitalization on all: Titles, menus, tabs and buttons
 
 
 Use sentence style capitalization on all:
