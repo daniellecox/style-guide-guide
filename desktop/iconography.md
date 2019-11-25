@@ -5,7 +5,10 @@ permalink: desktop/iconography.html
 title: Iconography
 description: Tile description
 ---
+
+
 variations:
+  :bomb:
 - title: Tile list
   description: Tile list description
   styleModifier: c-tile-list
