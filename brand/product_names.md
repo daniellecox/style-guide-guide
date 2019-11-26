@@ -1,10 +1,10 @@
 ---
 layout: page
 type: detail
-title: Eclipse Specific
-group: ide
-permalink: /ide/eclipse.html
-description: Design guidelines for OneAPI Eclipse plugins
+title: Product Names
+group: brand
+permalink: /brand/product_names.html
+description: Product Names
 ---
 
 
