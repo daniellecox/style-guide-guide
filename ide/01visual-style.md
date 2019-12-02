@@ -4,15 +4,15 @@ type: detail
 title: IDE Style Guidelines
 group: ide
 permalink: /ide/visual-style.html
-description: Visual style guidelines for IDE plugins
+description: Visual style guidelines for IDE plug-ins
 ---
 
 
-##Adhere to the IDE Core Concepts
+## Adhere to the IDE Core Concepts
 When creating your plug-in, re-use the IDE core visual concepts to maintain consistent representation and meaning across plug-in functionality.
 
-## Intel and OneAPI Branding in the IDE plugins
-Users will use your components alongside others as an itegraged experience so avoid branding, logos and graphics in your plugin except where identified.  For questions about Intel tool names or when to use the registered trademark, refer to the general branding guidelines.
+## Intel and OneAPI Branding in plug-ins
+Users will use your components alongside others as an itegraged experience so avoid branding, logos and graphics in the plug-in except where identified.  For questions about Intel tool names or when to use the registered trademark, refer to the general branding guidelines.
 
 ## OneAPI Logo
 Use the OneAPI logo to represent??  (for samples, should we use the OneAPI logo or C++ logo or??)
