@@ -1,5 +1,4 @@
 ---
----
 layout: page
 type: detail
 title: Visual Studio Code Guidelines
