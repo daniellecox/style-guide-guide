@@ -10,6 +10,9 @@ description: Visual style guidelines for IDE plug-ins
 
 ## Adhere to the IDE Core Concepts
 When creating your plug-in, re-use the IDE core visual concepts to maintain consistent representation and meaning across plug-in functionality.
+Eclipse Guildelines here: [an example](https://wiki.eclipse.org/User_Interface_Guidelines#General_UI_Guidelines "Eclipse Style Guide") inline link.
+VS Guildelines here: [an example](https://wiki.eclipse.org/User_Interface_Guidelines#General_UI_Guidelines "Eclipse Style Guide") inline link.
+
 
 ## Intel and OneAPI Branding in plug-ins
 Users will use your components alongside others as an itegraged experience so avoid branding, logos and graphics in the plug-in except where identified.  For questions about Intel tool names or when to use the registered trademark, refer to the general branding guidelines.
@@ -32,13 +35,8 @@ Check boxes, radio buttons and group labels.
 ## Fonts and colors
 Use the fonts and colors provided by the host operating system as much as possible. On Windows the platform color and font settings are found on the Preferences > Colors and Fonts page. The font used by most widgets in Eclipse is the one set in the Message Box settings of the properties. However, operating systems do not provide enough colors to handle all of the extra information that colors and fonts provide in Eclipse. 
 
-## Visual Style Guideline
-Re-use the core visual concepts to maintain consistent representation and meaning across Eclipse plug-ins and functionality. 
-Note: if writing a component that will not be integrated into the IDE, follow the 
- 
-This is [an example](http://example.com/ "Title") inline link.
 
-<img src="smiley.gif" alt="Smiley face" height="42" width="42">
+
 
 
 
