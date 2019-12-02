@@ -19,6 +19,10 @@ In some scenarios, it may be tempting to ignore the workflow of Eclipse and impl
 
 f you decide to reuse the conventions of Eclipse, be careful not to misappropriate Eclipse specific UI conventions. For instance, the active part in a workbench window is indicated by a shaded title. The use of shaded titles within an editor (see below) may be one way to indicate where the focus is, within that part, but it will also blur the concept of part activation in the window.
 
+##Using Eclipse Documentation for OneAPI
+https://wiki.eclipse.org/Eclipse_Doc_Style_Guide
+
+
 ## Eclipse UI Patterns
 All elements in the Eclipse interface are derived from the plug-in and workbench concepts. Plugins provide functionality and control and are implemented as structured subsystems in the platform.  The workbench is the cockpit for navigating all that is provided by the plug-ins.  
 

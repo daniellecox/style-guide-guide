@@ -12,6 +12,9 @@ Avoid branding, logos and graphics in your compoent except where identified.  Us
 
 ## Text Style for both IDEs
 
+Both IDEs should follow IDE platform conventions with cusotmizations as possible
+
+
 **Use title case for**
 Titles, menus, tabs and buttons
 
