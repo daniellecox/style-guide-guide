@@ -2,7 +2,7 @@
 ---
 layout: page
 type: detail
-title: Visual Studio Specific
+title: Visual Studio Code
 group: ide
 permalink: /ide/visual-studio-code.html
 description: Design guidelines for OneAPI Visual Studio plug-ins
