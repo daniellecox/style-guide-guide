@@ -6,14 +6,21 @@ group: ide
 permalink: /ide/visual-style.html
 description: Visual style guidelines for IDE plugins
 ---
-## Branding
-Avoid branding, logos and graphics in your compoent except where identified.  Users will use your components alongside others as an itegraged experience, so keep the interface simple in order to offer a cleaner window space.  For questions about Intel branding, refer to the general branding guidelines.
 
+
+##Adhere to the IDE Core Concepts
+When creating your plug-in, re-use the IDE core visual concepts to maintain consistent representation and meaning across plug-in functionality.
+
+## Intel and OneAPI Branding in the IDE plugins
+Users will use your components alongside others as an itegraged experience so avoid branding, logos and graphics in your plugin except where identified.  For questions about Intel tool names or when to use the registered trademark, refer to the general branding guidelines.
+
+## OneAPI Logo
+Use the OneAPI logo to represent??  (for samples, should we use the OneAPI logo or C++ logo or??)
 
 ## Text Style for both IDEs
-
-Both IDEs should follow IDE platform conventions with cusotmizations as possible
-
+IDEs and editors should follow the respective platform conventions.  
+https://wiki.eclipse.org/User_Interface_Guidelines#General_UI_Guidelines
+https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines?view=vs-2019
 
 **Use title case for**
 Titles, menus, tabs and buttons
@@ -22,19 +29,12 @@ Titles, menus, tabs and buttons
 All control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields.
 Check boxes, radio buttons and group labels. 
 
-
-Follow the existing Eclipse and Visual Studio conventions
-https://wiki.eclipse.org/User_Interface_Guidelines#General_UI_Guidelines
-https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines?view=vs-2019
-
-
 ## Fonts and colors
-Eclipse uses the fonts and colors provided by the operating system as much as possible. On Windows the platform color and font settings are found on the Preferences > Colors and Fonts page. The font used by most widgets in Eclipse is the one set in the Message Box settings of the properties. However, operating systems do not provide enough colors to handle all of the extra information that colors and fonts provide in Eclipse. 
-
+Use the fonts and colors provided by the host operating system as much as possible. On Windows the platform color and font settings are found on the Preferences > Colors and Fonts page. The font used by most widgets in Eclipse is the one set in the Message Box settings of the properties. However, operating systems do not provide enough colors to handle all of the extra information that colors and fonts provide in Eclipse. 
 
 ## Visual Style Guideline
 Re-use the core visual concepts to maintain consistent representation and meaning across Eclipse plug-ins and functionality. 
-Note: if writing a component that will not be integrated into the IDE, follow the IT Master Look and Feel Stylesheet
+Note: if writing a component that will not be integrated into the IDE, follow the 
  
 This is [an example](http://example.com/ "Title") inline link.
 
