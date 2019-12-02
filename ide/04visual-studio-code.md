@@ -4,7 +4,7 @@ layout: page
 type: detail
 title: Visual Studio Specific
 group: ide
-permalink: /ide/visual-studio.html
+permalink: /ide/visual-studio-code.html
 description: Design guidelines for OneAPI Visual Studio plug-ins
 ---
 
