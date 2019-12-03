@@ -1,23 +1,21 @@
 ---
 layout: page
 type: detail
-title: Plug-in Style Guidelines
+title: Style Guidelines for plug-ins
 group: ide
 permalink: /ide/visual-style.html
 description: Visual style for IDE plug-ins
 ---
 
 ## Adhere to the IDE Core Concepts
-When creating your plug-in, re-use the IDE core visual concepts to maintain consistent representation and meaning across plug-in functionality.
+When creating your plug-in, re-use the core visual concepts of the IDE to maintain consistent representation and meaning across plug-in functionality.  Design guides for each platform listed below.
 * <a href="https://wiki.eclipse.org/User_Interface_Guidelines#General_UI_Guidelines/" target="_blank">Eclipse UI Guidelines</a>
-* <a href="https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines?view=vs-2019" target="_blank">Visual Studio UI </a>
-
-
-https://docs.microsoft.com/en-us/visualstudio/extensibility/starting-to-develop-visual-studio-extensions?view=vs-2019
+* <a href="https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines?view=vs-2019" target="_blank">Visual Studio UI</a>
+* <a href="https://docs.microsoft.com/en-us/visualstudio/extensibility/starting-to-develop-visual-studio-extensions?view=vs-2019" target="_blank"></a>
 
 
 ## Intel and OneAPI Branding in plug-ins
-Users will use your components alongside others as an itegraged experience so avoid branding, logos and graphics in the plug-in except where identified.  For questions about Intel tool names or when to use the registered trademark, refer to the general branding guidelines.
+Avoid branding, logos and graphics in the plug-in, except where identified.  Users will use your tool functionality alongside other tools as an itegraged experience making proper brand placement important.  For questions about Intel tool names or when/how to use the registered trademark name in the UI, refer to the general branding guidelines.
 
 ## OneAPI Logo
 Use the OneAPI logo to represent??  (for samples, should we use the OneAPI logo or C++ logo or??)
@@ -40,3 +38,6 @@ Titles, menus, tabs and buttons
 **Use sentence case with no ending punctuation for:**
 All control labels in a dialog or window, including those for check boxes, radio buttons, group labels, and simple text fields.
 Check boxes, radio buttons and group labels. 
+
+
+ <a href="https://daniellecox.github.io/style-guide-guide/brand.html" target="_blank">Trademark & Branding GUI guidelines</a>
