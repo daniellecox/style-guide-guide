@@ -6,8 +6,9 @@ description: DX Principles for OneAPI
 
 With OneAPI toolsets, our goal is to provide developers with a streamlined solution for multiple architectures.  Because of the complex nature of toolset interoperability, we must adhere to those specific design standards that will most quickly enable developers to achieve **_their_** goals on behalf of **_their_** end-users. 
 
-## Use Standards
-The established standards of any software environment—whether on the operating system level, brand level, or application level—are very important. Besides the branding, the standards act as a proverbial schema in the user's mind. When the user spends long periods of time working with a software application, he or she will automatically increase productivity because of the growing familiarity.
+## Use Standards and Industry Best Practices
+The established standards of any software environment—whether on the operating system level, brand level, or application level- are important to end-user productivitiy and the overall experience.  Tool behavior should matches expected patterns, and the behavior should remain consistent across versions.  Follow best practices for code organization, design patterns, and naming conventions.  
+Developer guides, documenation, release notes, and readmes should be in expected locations.
 
 ## Focus on The User’s Primary Task
 When designing your freature or tool, identify a concise, conceptually coherent set of functionalities that you want to provide, and be careful to avoid over-engineering. Focus the experience on the primary task that the user is attempting to accomplish. A OneAPI plugin or component that tries to do multiple disparate things will end up being complex and potentially confusing.
@@ -23,10 +24,6 @@ People make mistakes, anticipating these mistakes will make our toolsets more pl
 
 ## Avoid Interruptions
 Interruptions cause frustration and annoyance, and prevent people from focusing on what they are interested in. Design your plugin so that it stays out of the way when it is not in use, and does not surprise when it is in use. Use notifications with restraint, always avoid spontaneously popping up dialogs without user intent, and avoid disruptive feedback mechanisms like message dialogs
-
-## Use Industry Best Practices
-Tool behavior should matches expected patterns, and the behavior should remain consistent across versions.  Follow best practices for code organization, design patterns, and naming conventions.  
-Developer guides, documenation, release notes, and readmes should be in expected locations.
 
 ## Invest Time and Effort in Sample Creation
 Samples should be easy to use (compile and run), easy to comprehend, and easy to integrate and customize.  Show users how to interoperate between samples.
