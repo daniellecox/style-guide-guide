@@ -10,8 +10,8 @@ description: Visual style guidelines for IDE plug-ins
 ## Adhere to the IDE Core Concepts
 When creating your plug-in, re-use the IDE core visual concepts to maintain consistent representation and meaning across plug-in functionality.
 * <a href="https://wiki.eclipse.org/User_Interface_Guidelines#General_UI_Guidelines/" target="_blank">Eclipse UI Guidelines</a>
-* <a href="https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines?view=vs-2019" target="_blank">Visual Studio </a>
-
+* <a href="https://docs.microsoft.com/en-us/visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines?view=vs-2019" target="_blank">Visual Studio UI  </a>
+https://docs.microsoft.com/en-us/visualstudio/extensibility/starting-to-develop-visual-studio-extensions?view=vs-2019
 
 
 ## Intel and OneAPI Branding in plug-ins
