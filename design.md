@@ -6,7 +6,9 @@ description: DX Principles for OneAPI
 
 With OneAPI toolsets, our goal is to provide developers with a streamlined solution for multiple architectures.  Because of the complex nature of toolset interoperability, we must adhere to those specific design standards that will most quickly enable developers to achieve **_their_** goals on behalf of **_their_** end-users. 
 
-  
+## Use Standards
+The established standards of any software environment—whether on the operating system level, brand level, or application level—are very important. Besides the branding, the standards act as a proverbial schema in the user's mind. When the user spends long periods of time working with a software application, he or she will automatically increase productivity because of the growing familiarity.
+
 ## Focus on The User’s Primary Task
 When designing your freature or tool, identify a concise, conceptually coherent set of functionalities that you want to provide, and be careful to avoid over-engineering. Focus the experience on the primary task that the user is attempting to accomplish. A OneAPI plugin or component that tries to do multiple disparate things will end up being complex and potentially confusing.
  
@@ -28,3 +30,4 @@ Developer guides, documenation, release notes, and readmes should be in expected
 
 ## Invest Time and Effort in Sample Creation
 Samples should be easy to use (compile and run), easy to comprehend, and easy to integrate and customize.  Show users how to interoperate between samples.
+
