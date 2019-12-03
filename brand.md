@@ -27,3 +27,10 @@ Likewise, some operating systems allow adding Icons to the desktop, which may al
 
 
 
+<a href="https://digitallibrary.intel.com/content/digital-library/us/en/homepage.html" target="_blank">Intel Branding Website</a>
+
+
+<a href="https://digitallibrary.intel.com/content/digital-library/us/en/search.html?category=brandassets/intelclearfont" target="_blank">Intel Clear</a>
+
+
+https://accessible-colors.com/
